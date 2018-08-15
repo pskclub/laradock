@@ -215,9 +215,9 @@ MARIADB_ENTRYPOINT_INITDB=./mariadb/docker-entrypoint-initdb.d
 
 ### POSTGRES ##############################################
 
-POSTGRES_DB=default
-POSTGRES_USER=default
-POSTGRES_PASSWORD=secret
+POSTGRES_DB=chlom
+POSTGRES_USER=chlom
+POSTGRES_PASSWORD=chlom
 POSTGRES_PORT=5432
 POSTGRES_ENTRYPOINT_INITDB=./postgres/docker-entrypoint-initdb.d
 
